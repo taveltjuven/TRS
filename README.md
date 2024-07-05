@@ -1,8 +1,5 @@
+Using a while loop to iterate through the current day in a closed date interval. The day of the week number is given by Zeller's algorithm (from Wikipedia). A dictionary is generated to keep track of the number of days in each month, including leap years.
 
-Using a while loop to iterate thourgh the current day in a closed date intercal
-The day of the week number is given by Zellers algo (from wikipedia)
-Generated a dict to keep track of days in month, including paying attention to leap year
+Unit testing with pandas.
 
-Unit testing with pandas
-
-I was expecting the while loop to be faster, a nest for loop might be a faster implementation. 
+I was expecting the while loop to be faster, but a nested for loop might be a faster implementation
