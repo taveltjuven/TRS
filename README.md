@@ -7,7 +7,9 @@ The solution iterates through the current day in a closed date interval while ch
 ## Recent Updates
 
 ### Improved Asymptotic Computational Complexity
-- Improved the asymptotic computational complexity. The function get_weekdays_in_year calculates the number of weekdays in a given year, accounting for different start days of the week and leap years.
+- 400-Year Calendar Cycle: Implemented a 400-year calendar cycle as a lookup table to efficiently compute weekdays over long time spans. This significantly reduces the complexity compared to iterating through each year individually.
+- Day-of-Week Modulo Logic: Utilized a day-of-week modulo logic to calculate weekdays within a year, ensuring fast and accurate computation without looping through each day
 
 ### General Updates
-- Refactored code for better readability and maintainability.
+- Refactored Code: Improved readability and maintainability by organizing functions and adding  docstrings
+- Caching: Implemented caching to store the precomputed 400-year calendar cycle, further optimizing repeated calculations.
